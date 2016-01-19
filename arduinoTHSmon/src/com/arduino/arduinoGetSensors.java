@@ -4,7 +4,6 @@ import jssc.SerialPort;
 import jssc.SerialPortEvent;
 import jssc.SerialPortEventListener;
 import jssc.SerialPortException;
-
 import java.io.*;
 import java.sql.*;
 import java.text.SimpleDateFormat;
@@ -33,7 +32,6 @@ public class arduinoGetSensors {
     private static String currentTime;
     private static SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
     private static SimpleDateFormat time = new SimpleDateFormat("HH:mm:ss");
-    private static Calendar calendar = new GregorianCalendar();
 
     public static void main(String[] args) throws IOException {
 
@@ -87,6 +85,8 @@ public class arduinoGetSensors {
 
         public void serialEvent(SerialPortEvent event) {
 
+            Calendar calendar = new GregorianCalendar();
+
             if(event.isRXCHAR()  && event.getEventValue() > 6){
                 try {
                     String buffer = serialPort.readString();
@@ -95,6 +95,8 @@ public class arduinoGetSensors {
                     double humi =  Double.parseDouble(sensors[1].substring(0,4));
                     currentDate = date.format(calendar.getTime());
                     currentTime = time.format(calendar.getTime());
+                    System.out.println(currentDate);
+                    System.out.println(currentTime);
                     System.out.println("Температура:  " + temp);
                     System.out.println("Влажность:  " + humi);
                     System.out.println("----------------------");
@@ -115,6 +117,7 @@ public class arduinoGetSensors {
                             con = DriverManager.getConnection(url, dbUser, dbPassword);
                             stmt = con.createStatement();
                             rs = stmt.executeQuery(query);
+                            con.close();
                         } catch (SQLException sqlEx) {
                             if(debug) {
                                 sqlEx.printStackTrace();
