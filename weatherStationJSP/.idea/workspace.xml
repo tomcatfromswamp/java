@@ -26,8 +26,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3381555">
-              <caret line="27" column="164" selection-start-line="27" selection-start-column="164" selection-end-line="27" selection-end-column="164" />
+            <state vertical-scroll-proportion="0.2766727">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
                 <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
@@ -988,12 +988,12 @@
       <updated>1453203576449</updated>
       <workItem from="1453203578472" duration="6354000" />
       <workItem from="1453214534751" duration="604000" />
-      <workItem from="1453273784517" duration="7928000" />
+      <workItem from="1453273784517" duration="8112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14886000" />
+    <option name="totallyTimeSpent" value="15070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1089,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3381555">
-          <caret line="27" column="164" selection-start-line="27" selection-start-column="164" selection-end-line="27" selection-end-column="164" />
+        <state vertical-scroll-proportion="0.2766727">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
             <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
