@@ -13,9 +13,9 @@
   String outMessage = null;
   if(temp!=null | humi!=null | name!=null)
   {
-    String driver = "org.mysql.Driver";
+    String driver = "org.mysql.jdbc.Driver";
     String url = "jdbc:mysql://localhost/weather_station";
-    String username = "mysql";
+    String username = "root";
     String passwd = "123456";
     String myQuery = "insert into sensors (temp, humi) values ('" + temp + "', '" + humi + "')";
     try {
