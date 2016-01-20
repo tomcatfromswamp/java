@@ -26,10 +26,14 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75406873">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.3381555">
+              <caret line="27" column="164" selection-start-line="27" selection-start-column="164" selection-end-line="27" selection-end-column="164" />
               <folding>
-                <marker date="1453288854589" expanded="true" signature="672:744" placeholder="insert into sensors... " />
+                <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
+                <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
+                <marker date="1453294178798" expanded="true" signature="984:1110" placeholder="insert into sensors... " />
+                <marker date="1453294178798" expanded="true" signature="984:1113" placeholder="insert into sensors... " />
+                <marker date="1453294178798" expanded="true" signature="984:1127" placeholder="insert into sensors... " />
               </folding>
             </state>
           </provider>
@@ -115,6 +119,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../arduinoTHSmon" />
   </component>
   <component name="RunManager" selected="Tomcat Server.index.jsp">
     <configuration default="false" name="index.jsp (5)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M1" ALTERNATIVE_JRE_ENABLED="false">
@@ -983,12 +988,12 @@
       <updated>1453203576449</updated>
       <workItem from="1453203578472" duration="6354000" />
       <workItem from="1453214534751" duration="604000" />
-      <workItem from="1453273784517" duration="6171000" />
+      <workItem from="1453273784517" duration="7928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13129000" />
+    <option name="totallyTimeSpent" value="14886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1052,7 +1057,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1453288854589" expanded="true" signature="672:744" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1110" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1113" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1127" placeholder="insert into sensors... " />
           </folding>
         </state>
       </provider>
@@ -1062,7 +1071,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1453288854589" expanded="true" signature="672:744" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1110" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1113" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1127" placeholder="insert into sensors... " />
           </folding>
         </state>
       </provider>
@@ -1076,10 +1089,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75406873">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.3381555">
+          <caret line="27" column="164" selection-start-line="27" selection-start-column="164" selection-end-line="27" selection-end-column="164" />
           <folding>
-            <marker date="1453288854589" expanded="true" signature="672:744" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1110" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1113" placeholder="insert into sensors... " />
+            <marker date="1453294178798" expanded="true" signature="984:1127" placeholder="insert into sensors... " />
           </folding>
         </state>
       </provider>
