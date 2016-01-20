@@ -11,9 +11,10 @@
   String humi = request.getParameter("humi");
   String name = request.getParameter("name");
   String outMessage = null;
+  String errorSQL = null;
   if(temp!=null | humi!=null | name!=null)
   {
-    String driver = "org.mysql.jdbc.Driver";
+    String driver = "com.mysql.jdbc.Driver";
     String url = "jdbc:mysql://localhost/weather_station";
     String username = "root";
     String passwd = "123456";
@@ -29,6 +30,7 @@
       myResultSet = myPreparedStatement.executeQuery();
     } catch (SQLException ex) {
       ex.printStackTrace();
+      errorSQL = ex.getMessage();
     }
   } else {
       outMessage  = "Нет данных для обработки!";
@@ -41,5 +43,6 @@
   </head>
   <body>
   <%=outMessage%>
+  <%=errorSQL%>
   </body>
 </html>
