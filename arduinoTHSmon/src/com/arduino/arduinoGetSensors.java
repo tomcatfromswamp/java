@@ -5,9 +5,13 @@ import jssc.SerialPortEvent;
 import jssc.SerialPortEventListener;
 import jssc.SerialPortException;
 import java.io.*;
+import java.net.MalformedURLException;
 import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import javax.net.ssl.HttpsURLConnection;
 
 
 public class arduinoGetSensors {
@@ -48,6 +52,7 @@ public class arduinoGetSensors {
         name = props.getProperty("name");
         port = props.getProperty("port");
         interval = Integer.parseInt(props.getProperty("interval"));
+        System.out.println(name);
         if(dbUse){
             System.out.println("Работа в режиме сохранения данных в БД.");
         } else {
@@ -101,38 +106,46 @@ public class arduinoGetSensors {
                     System.out.println("Влажность:  " + humi);
                     System.out.println("----------------------");
                     if(dbUse) {
-                        try {
-                            switch(dbType) {
-                                case "postgresql": {
-                                    dbPort = "5432";
-                                    break;
-                                }
-                                case "mysql": {
-                                    dbPort = "3306";
-                                }
-                            }
-                            url = "jdbc:" + dbType + "://" + dbHost + ":" + dbPort + "/" + dbName;
-                            Class.forName("org.postgresql.Driver");
-                            String query = "insert into sensors (temp, humi, name, date, time) values ('" + temp + "','" + humi + "','" + name + "','" + currentDate + "','" + currentTime + "')";
-                            con = DriverManager.getConnection(url, dbUser, dbPassword);
-                            stmt = con.createStatement();
-                            rs = stmt.executeQuery(query);
-                            con.close();
-                        } catch (SQLException sqlEx) {
-                            if(debug) {
-                                sqlEx.printStackTrace();
-                            }
-                        } catch (ClassNotFoundException e) {
-                           if(debug){
-                               e.printStackTrace();
-                           }
-                        }
+                        sendGet(temp,humi,name);
                     }
                 }
                 catch (SerialPortException ex) {
                     System.out.println(ex);
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
             }
+        }
+
+        private void sendGet(double temp, double humi, String name) throws IOException {
+            final String USER_AGENT = "Mozilla/5.0";
+            String url = "http://weather-station.x5x.ru:8080/index.jsp?temp=" + temp + "&humi=" + humi + "&name=" + name;
+
+            URL obj = new URL(url);
+            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+
+            // optional default is GET
+            con.setRequestMethod("GET");
+
+            //add request header
+            con.setRequestProperty("User-Agent", USER_AGENT);
+
+            int responseCode = con.getResponseCode();
+            System.out.println("\nSending 'GET' request to URL : " + url);
+            System.out.println("Response Code : " + responseCode);
+
+            BufferedReader in = new BufferedReader(
+                    new InputStreamReader(con.getInputStream()));
+            String inputLine;
+            StringBuffer response = new StringBuffer();
+
+            while ((inputLine = in.readLine()) != null) {
+                response.append(inputLine);
+            }
+            in.close();
+
+            //print result
+            System.out.println(response.toString());
         }
     }
 }
