@@ -26,14 +26,10 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2766727">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state vertical-scroll-proportion="-0.49827588">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
               <folding>
-                <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
-                <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
-                <marker date="1453294178798" expanded="true" signature="984:1110" placeholder="insert into sensors... " />
-                <marker date="1453294178798" expanded="true" signature="984:1113" placeholder="insert into sensors... " />
-                <marker date="1453294178798" expanded="true" signature="984:1127" placeholder="insert into sensors... " />
+                <marker date="1453297640381" expanded="true" signature="934:1054" placeholder="insert into sensors... " />
               </folding>
             </state>
           </provider>
@@ -988,12 +984,12 @@
       <updated>1453203576449</updated>
       <workItem from="1453203578472" duration="6354000" />
       <workItem from="1453214534751" duration="604000" />
-      <workItem from="1453273784517" duration="8112000" />
+      <workItem from="1453273784517" duration="9534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15070000" />
+    <option name="totallyTimeSpent" value="16492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1057,11 +1053,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1110" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1113" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1127" placeholder="insert into sensors... " />
+            <marker date="1453297640381" expanded="true" signature="934:1054" placeholder="insert into sensors... " />
           </folding>
         </state>
       </provider>
@@ -1071,11 +1063,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1110" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1113" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1127" placeholder="insert into sensors... " />
+            <marker date="1453297640381" expanded="true" signature="934:1054" placeholder="insert into sensors... " />
           </folding>
         </state>
       </provider>
@@ -1089,14 +1077,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2766727">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state vertical-scroll-proportion="-0.49827588">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding>
-            <marker date="1453294178798" expanded="true" signature="984:1070" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1090" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1110" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1113" placeholder="insert into sensors... " />
-            <marker date="1453294178798" expanded="true" signature="984:1127" placeholder="insert into sensors... " />
+            <marker date="1453297640381" expanded="true" signature="934:1054" placeholder="insert into sensors... " />
           </folding>
         </state>
       </provider>

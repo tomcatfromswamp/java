@@ -1,4 +1,5 @@
 <%@ page import="java.sql.*" %>
+<%@ page import="java.io.*,java.util.*, javax.servlet.*" %>
 <%@ page import="java.text.SimpleDateFormat" %><%--
   Created by IntelliJ IDEA.
   User: tfs
@@ -11,12 +12,9 @@
   String temp = request.getParameter("temp");
   String humi = request.getParameter("humi");
   String name = request.getParameter("name");
-  String currentDate;
-  String currentTime;
-  SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
-  SimpleDateFormat time = new SimpleDateFormat("HH:mm:ss");
-  currentDate = date.format(calendar.getTime());
-  currentTime = time.format(calendar.getTime());
+  java.util.Date date = new java.util.Date();
+  SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+  String datetime = sdf.format(date);
   String outMessage = null;
   String errorSQL = null;
   if(temp!=null | humi!=null | name!=null)
@@ -25,7 +23,7 @@
     String url = "jdbc:mysql://localhost/weather_station";
     String username = "root";
     String passwd = "123456";
-    String myQuery = "insert into sensors (temp, humi, date, name) values ('" + temp + "', '" + humi + "', '" + currentDate + " " + currentTime + "', '" + name + "')";
+    String myQuery = "insert into sensors (temp, humi, date, name) values ('" + temp + "', '" + humi + "', '" + datetime + "', '" + name + "')";
     try {
       outMessage = "Добавляем данные в БД...";
       Connection myConnection = null;
@@ -36,20 +34,20 @@
       myPreparedStatement = myConnection.prepareStatement(myQuery);
       myPreparedStatement.execute();
     } catch (SQLException ex) {
-        ex.printStackTrace();
-        errorSQL = ex.getMessage();
+      ex.printStackTrace();
+      errorSQL = ex.getMessage();
     }
   } else {
-      outMessage  = "Нет данных для обработки!";
+    outMessage  = "Нет данных для обработки!";
   }
 
 %>
 <html>
-  <head>
-    <title>Weather server JSP</title>
-  </head>
-  <body>
-  <%=outMessage%>
-  <%=errorSQL%>
-  </body>
+<head>
+  <title>Weather server JSP</title>
+</head>
+<body>
+<%=outMessage%>
+<%=errorSQL%>
+</body>
 </html>
