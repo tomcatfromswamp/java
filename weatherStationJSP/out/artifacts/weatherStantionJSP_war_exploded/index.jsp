@@ -10,6 +10,7 @@
   String temp = request.getParameter("temp");
   String humi = request.getParameter("humi");
   String name = request.getParameter("name");
+  String outMessage = null;
   if(temp!=null | humi!=null | name!=null)
   {
     String driver = "org.postgresql.Driver";
@@ -18,6 +19,7 @@
     String passwd = "123456";
     String myQuery = "insert into sensors (temp, humi) values ('" + temp + "', '" + humi + "')";
     try {
+      outMessage = "Добавляем данные в БД...";
       Connection myConnection = null;
       PreparedStatement myPreparedStatement = null;
       ResultSet myResultSet = null;
@@ -28,6 +30,8 @@
     } catch (SQLException ex) {
       ex.printStackTrace();
     }
+  } else {
+      outMessage  = "Нет данных для обработки!";
   }
 
 %>
@@ -36,5 +40,6 @@
     <title>Weather server JSP</title>
   </head>
   <body>
+  <%=outMessage%>
   </body>
 </html>
