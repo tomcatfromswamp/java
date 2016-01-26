@@ -17,7 +17,7 @@ public class arduinoGetSensors {
     private static String port;
     private static int interval;
     private static Boolean save;
-
+    private static String[] sensorsId;
     public static void main(String[] args) throws IOException {
         Properties props = new Properties();
         System.out.println("Загружаем конфигурацию");
@@ -26,6 +26,7 @@ public class arduinoGetSensors {
         debug = Boolean.parseBoolean(props.getProperty("debug"));
         name = props.getProperty("name");
         port = props.getProperty("port");
+        sensorsId = props.getProperty("sensors_id").split("\\,");
         interval = Integer.parseInt(props.getProperty("interval"));
         System.out.println(name);
         if(save){
@@ -46,8 +47,13 @@ public class arduinoGetSensors {
                 @Override
                 public void run() {
                     try {
-                        serialPort.writeString("3");
+                        for (String id: sensorsId) {
+                            serialPort.writeString(id);
+                            Thread.sleep(1000);
+                        }
                     } catch (SerialPortException e) {
+                        e.printStackTrace();
+                    } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
@@ -68,13 +74,19 @@ public class arduinoGetSensors {
                 try {
                     String buffer = serialPort.readString();
                     String[] sensors = buffer.split("\\,");
-                    double temp =  Double.parseDouble(sensors[0].substring(0,4));
-                    double humi =  Double.parseDouble(sensors[1].substring(0,4));
-                    System.out.println("Температура:  " + temp);
-                    System.out.println("Влажность:  " + humi);
-                    System.out.println("----------------------");
-                    if(save) {
-                        sendToServer(temp,humi,name);
+                    int gpio;
+                    double temp,humi;
+                    if(sensors.length == 3) {
+                        gpio = Integer.parseInt(sensors[0]);
+                        temp = Double.parseDouble(sensors[1]);
+                        humi = Double.parseDouble(sensors[2]);
+                        System.out.println("Данные датчика на шине №" + gpio);
+                        System.out.println("Температура:  " + temp);
+                        System.out.println("Влажность:  " + humi);
+                        System.out.println("----------------------");
+                        if (save) {
+                            sendToServer(temp, humi, name, gpio);
+                        }
                     }
                 }
                 catch (SerialPortException ex) {
@@ -85,9 +97,9 @@ public class arduinoGetSensors {
             }
         }
 
-        private void sendToServer(double temp, double humi, String name) throws IOException {
+        private void sendToServer(double temp, double humi, String name, int gpio) throws IOException {
             final String USER_AGENT = "Mozilla/5.0";
-            String url = "http://weather-station.x5x.ru:8080/index.jsp?temp=" + temp + "&humi=" + humi + "&name=" + name;
+            String url = "http://weather-station.x5x.ru:8080/index.jsp?temp=" + temp + "&humi=" + humi + "&name=" + name + "&gpio=" + gpio;
             URL obj = new URL(url);
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
             con.setRequestMethod("GET");
