@@ -32,7 +32,7 @@ public class Main {
         boolean exists = file.exists();
         if (exists) {
             Properties props = new Properties();
-            System.out.println("Загружаем конфигурацию");
+            System.out.println("Загружаем конфигурацию из: " + cfgPath);
             props.load(new FileInputStream(new File(cfgPath)));
             save = Boolean.parseBoolean(props.getProperty("save"));
             debug = Boolean.parseBoolean(props.getProperty("debug"));
