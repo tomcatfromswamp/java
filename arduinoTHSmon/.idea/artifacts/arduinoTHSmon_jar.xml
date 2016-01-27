@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/arduinoTHSmon_jar</output-path>
     <root id="archive" name="arduinoTHSmon.jar">
       <element id="module-output" name="arduinoTHSmon" />
-      <element id="library" level="project" name="jssc" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../sdk/jssc.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
