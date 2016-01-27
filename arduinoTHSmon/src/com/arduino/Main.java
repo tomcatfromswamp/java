@@ -20,52 +20,64 @@ public class Main {
     private static int interval;
     private static Boolean save;
     private static String[] sensorsId;
+    private static String cfgPath;
+
     public static void main(String[] args) throws IOException {
-        Properties props = new Properties();
-        System.out.println("Загружаем конфигурацию");
-        props.load(new FileInputStream(new File("arduinoTHSmon.conf")));
-        save = Boolean.parseBoolean(props.getProperty("save"));
-        debug = Boolean.parseBoolean(props.getProperty("debug"));
-        name = props.getProperty("name");
-        port = props.getProperty("port");
-        sensorsId = props.getProperty("sensors_id").split("\\,");
-        interval = Integer.parseInt(props.getProperty("interval"));
-        System.out.println(name);
-        if(save){
-            System.out.println("Работа в режиме сохранения данных в БД.");
+        if (args[0].equals("-c")) {
+            cfgPath = args[1];
         } else {
-            System.out.println("Работаем в автономном режиме.");
+            cfgPath = "./arduinoTHSmon.conf";
         }
-        serialPort = new SerialPort(port);
-        try {
-            serialPort.openPort();
-            serialPort.setParams(SerialPort.BAUDRATE_9600,
-                    SerialPort.DATABITS_8,
-                    SerialPort.STOPBITS_1,
-                    SerialPort.PARITY_NONE);
-            serialPort.addEventListener(new PortReader(), SerialPort.MASK_RXCHAR);
-            Timer timer = new Timer();
-            TimerTask timerTask = new TimerTask() {
-                @Override
-                public void run() {
-                    try {
-                        for (String id: sensorsId) {
-                            serialPort.writeString(id);
-                            Thread.sleep(1000);
+        File file = new File(cfgPath);
+        boolean exists = file.exists();
+        if (exists) {
+            Properties props = new Properties();
+            System.out.println("Загружаем конфигурацию");
+            props.load(new FileInputStream(new File(cfgPath)));
+            save = Boolean.parseBoolean(props.getProperty("save"));
+            debug = Boolean.parseBoolean(props.getProperty("debug"));
+            name = props.getProperty("name");
+            port = props.getProperty("port");
+            sensorsId = props.getProperty("sensors_id").split("\\,");
+            interval = Integer.parseInt(props.getProperty("interval"));
+            System.out.println(name);
+            if (save) {
+                System.out.println("Работа в режиме сохранения данных в БД.");
+            } else {
+                System.out.println("Работаем в автономном режиме.");
+            }
+            serialPort = new SerialPort(port);
+            try {
+                serialPort.openPort();
+                serialPort.setParams(SerialPort.BAUDRATE_9600,
+                        SerialPort.DATABITS_8,
+                        SerialPort.STOPBITS_1,
+                        SerialPort.PARITY_NONE);
+                serialPort.addEventListener(new PortReader(), SerialPort.MASK_RXCHAR);
+                Timer timer = new Timer();
+                TimerTask timerTask = new TimerTask() {
+                    @Override
+                    public void run() {
+                        try {
+                            for (String id : sensorsId) {
+                                serialPort.writeString(id);
+                                Thread.sleep(1000);
+                            }
+                        } catch (SerialPortException e) {
+                            e.printStackTrace();
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
                         }
-                    } catch (SerialPortException e) {
-                        e.printStackTrace();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
                     }
-                }
-            };
-            timer.schedule(timerTask,1000,(interval*1000));
-            System.out.println("Опрашиваем Arduino каждые " + interval + " секунд.");
-            System.out.println("=================================");
-        }
-        catch (SerialPortException ex) {
-            System.out.println(ex);
+                };
+                timer.schedule(timerTask, 1000, (interval * 1000));
+                System.out.println("Опрашиваем Arduino каждые " + interval + " секунд.");
+                System.out.println("=================================");
+            } catch (SerialPortException ex) {
+                System.out.println(ex);
+            }
+        } else {
+            System.out.println("Config file isn`t exist!");
         }
     }
 
