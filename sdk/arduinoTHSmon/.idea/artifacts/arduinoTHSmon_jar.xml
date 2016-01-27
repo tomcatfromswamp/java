@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="arduinoTHSmon:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/arduinoTHSmon_jar</output-path>
-    <root id="archive" name="arduinoTHSmon.jar">
-      <element id="module-output" name="arduinoTHSmon" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../sdk/jssc.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
