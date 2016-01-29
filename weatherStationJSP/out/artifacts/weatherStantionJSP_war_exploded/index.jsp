@@ -1,4 +1,6 @@
-<%@ page import="java.sql.*" %><%--
+<%@ page import="java.sql.*" %>
+<%@ page import="java.io.*,java.util.*, javax.servlet.*" %>
+<%@ page import="java.text.SimpleDateFormat" %><%--
   Created by IntelliJ IDEA.
   User: tfs
   Date: 19.01.2016
@@ -10,36 +12,37 @@
   String temp = request.getParameter("temp");
   String humi = request.getParameter("humi");
   String name = request.getParameter("name");
+  String gpio = request.getParameter("gpio");
+  java.util.Date cdate = new java.util.Date();
+  SimpleDateFormat sdf_date = new SimpleDateFormat("yyyy-MM-dd");
+  SimpleDateFormat sdf_time = new SimpleDateFormat("HH:mm:ss");
+  String date = sdf_date.format(cdate);
+  String time = sdf_time.format(cdate);
+  out.write(date+"<br>");
+  out.write(time+"<br>");
   String outMessage = null;
+  String errorSQL = null;
   if(temp!=null | humi!=null | name!=null)
   {
-    String driver = "org.postgresql.Driver";
-    String url = "jdbc:postgresql://192.168.0.137/test";
-    String username = "postgres";
-    String passwd = "123456";
-    String myQuery = "insert into sensors (temp, humi) values ('" + temp + "', '" + humi + "')";
+    Class.forName("org.sqlite.JDBC");
+    Connection conn = DriverManager.getConnection("jdbc:sqlite:/var/lib/tomcat7/webapps/ROOT/wstation.db");
     try {
-      outMessage = "Добавляем данные в БД...";
-      Connection myConnection = null;
-      PreparedStatement myPreparedStatement = null;
-      ResultSet myResultSet = null;
-      Class.forName(driver).newInstance();
-      myConnection = DriverManager.getConnection(url, username, passwd);
-      myPreparedStatement = myConnection.prepareStatement(myQuery);
-      myResultSet = myPreparedStatement.executeQuery();
-    } catch (SQLException ex) {
-      ex.printStackTrace();
+      Statement stat = conn.createStatement();
+      ResultSet rs = stat.executeQuery("insert into sensors (temp, humi, date, time, name, gpio) values ('" + temp + "', '" + humi + "', '" + date + "', '" + time + "', '" + name + "', '" + gpio + "')");
+    } catch(SQLException e) {
+      out.write(e.getMessage());
     }
   } else {
-      outMessage  = "Нет данных для обработки!";
+    outMessage  = "Dont have any data!";
   }
 
 %>
 <html>
-  <head>
-    <title>Weather server JSP</title>
-  </head>
-  <body>
-  <%=outMessage%>
-  </body>
+<head>
+  <title>Weather server JSP</title>
+</head>
+<body>
+<%=outMessage%>
+<%=errorSQL%>
+</body>
 </html>
