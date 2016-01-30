@@ -15,7 +15,7 @@
   String gpio = request.getParameter("gpio");
   java.util.Date cdate = new java.util.Date();
   SimpleDateFormat sdf_date = new SimpleDateFormat("yyyy-MM-dd");
-  SimpleDateFormat sdf_time = new SimpleDateFormat("HH:mm:ss");
+  SimpleDateFormat sdf_time = new SimpleDateFormat("HH:mm:ss"); 
   String date = sdf_date.format(cdate);
   String time = sdf_time.format(cdate);
   out.write(date+"<br>");
@@ -27,10 +27,10 @@
     Class.forName("org.sqlite.JDBC");
     Connection conn = DriverManager.getConnection("jdbc:sqlite:/var/lib/tomcat7/webapps/ROOT/wstation.db");
     try {
-      Statement stat = conn.createStatement();
-      ResultSet rs = stat.executeQuery("insert into sensors (temp, humi, date, time, name, gpio) values ('" + temp + "', '" + humi + "', '" + date + "', '" + time + "', '" + name + "', '" + gpio + "')");
+	Statement stat = conn.createStatement();
+	ResultSet rs = stat.executeQuery("insert into sensors (temp, humi, date, time, name, gpio) values ('" + temp + "', '" + humi + "', '" + date + "', '" + time + "', '" + name + "', '" + gpio + "')");
     } catch(SQLException e) {
-      out.write(e.getMessage());
+	out.write(e.getMessage());
     }
   } else {
     outMessage  = "Dont have any data!";

@@ -4,9 +4,9 @@
 <%@ page import="java.util.ArrayList" %>
 <%
     ArrayList<String> gpioList = new ArrayList<String>();
-    ArrayList<String> tempListGlobal = new ArrayList<ArrayList<String>>();
-    ArrayList<String> humiListGlobal = new ArrayList<ArrayList<String>>();
-    ArrayList<String> timeListGlobal = new ArrayList<ArrayList<String>>();
+    ArrayList<String> tempListGlobal = new ArrayList<String>();
+    ArrayList<String> humiListGlobal = new ArrayList<String>();
+    ArrayList<String> timeListGlobal = new ArrayList<String>();
     ArrayList<String> tempList = new ArrayList<String>();
     ArrayList<String> humiList = new ArrayList<String>();
     ArrayList<String> timeList = new ArrayList<String>();
