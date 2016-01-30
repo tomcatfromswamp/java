@@ -2,16 +2,6 @@
 <%@ page import="java.io.*,java.util.*, javax.servlet.*" %>
 <%@ page import="java.text.SimpleDateFormat" %>
 <%@ page import="java.util.ArrayList" %>
-<<<<<<< HEAD
-<%
-    ArrayList<String> gpioList = new ArrayList<String>();
-    ArrayList<String> tempListGlobal = new ArrayList<String>();
-    ArrayList<String> humiListGlobal = new ArrayList<String>();
-    ArrayList<String> timeListGlobal = new ArrayList<String>();
-    ArrayList<String> tempList = new ArrayList<String>();
-    ArrayList<String> humiList = new ArrayList<String>();
-    ArrayList<String> timeList = new ArrayList<String>();
-=======
 <% 
     final class Sensor {
 	ArrayList<String> tempList = new ArrayList<String>();
@@ -24,7 +14,6 @@
     }
     ArrayList<Sensor> sensorsList = new ArrayList<Sensor>();
 
->>>>>>> c1709fa0c47778cf374b419cab49965779c0ea0c
     Class.forName("org.sqlite.JDBC");
     Connection conn = DriverManager.getConnection("jdbc:sqlite:/var/lib/tomcat7/webapps/ROOT/wstation.db");
     try {
