@@ -24,7 +24,7 @@
     out.write(""+date);
     Class.forName("org.sqlite.JDBC");
     Connection conn = DriverManager.getConnection("jdbc:sqlite:/d:\\Development\\java\\weatherStationJSP\\web\\wstation.db");
-    try {
+    //Connection conn = DriverManager.getConnection("jdbc:sqlite:/var/lib/tomcat7/webapps/ROOT/wstation.db");
         Statement stat = conn.createStatement();
         ResultSet rs_gpio = stat.executeQuery("select sensors.gpio,sensors_name.name from sensors, sensors_name where sensors.gpio = sensors_name.gpio GROUP by sensors.gpio");
         int i = 0;
