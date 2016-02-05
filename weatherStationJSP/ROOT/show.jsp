@@ -18,10 +18,6 @@
     }
 
     ArrayList<Sensor> sensorsList = new ArrayList<Sensor>();
-    java.util.Date cdate = new java.util.Date();
-    SimpleDateFormat sdf_date = new SimpleDateFormat("yyyy-MM-dd");
-    String date = sdf_date.format(cdate);
-    out.write(""+date);
     Class.forName("org.sqlite.JDBC");
     Connection conn = DriverManager.getConnection("jdbc:sqlite:/d:\\Development\\java\\weatherStationJSP\\web\\wstation.db");
     //Connection conn = DriverManager.getConnection("jdbc:sqlite:/var/lib/tomcat7/webapps/ROOT/wstation.db");

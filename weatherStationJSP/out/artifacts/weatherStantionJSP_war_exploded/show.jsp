@@ -18,13 +18,9 @@
     }
 
     ArrayList<Sensor> sensorsList = new ArrayList<Sensor>();
-    java.util.Date cdate = new java.util.Date();
-    SimpleDateFormat sdf_date = new SimpleDateFormat("yyyy-MM-dd");
-    String date = sdf_date.format(cdate);
-    out.write(""+date);
     Class.forName("org.sqlite.JDBC");
     Connection conn = DriverManager.getConnection("jdbc:sqlite:/d:\\Development\\java\\weatherStationJSP\\web\\wstation.db");
-    try {
+    //Connection conn = DriverManager.getConnection("jdbc:sqlite:/var/lib/tomcat7/webapps/ROOT/wstation.db");
         Statement stat = conn.createStatement();
         ResultSet rs_gpio = stat.executeQuery("select sensors.gpio,sensors_name.name from sensors, sensors_name where sensors.gpio = sensors_name.gpio GROUP by sensors.gpio");
         int i = 0;

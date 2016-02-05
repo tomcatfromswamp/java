@@ -24,33 +24,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="show.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/show.jsp">
+        <entry file="file://$PROJECT_DIR$/ROOT/show.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34655172">
-              <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
+            <state vertical-scroll-proportion="0.15689655">
+              <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
               <folding>
-                <element signature="e#499#500#0#JAVA" expanded="true" />
-                <element signature="e#562#563#0#JAVA" expanded="true" />
-                <element signature="e#595#596#0#JAVA" expanded="true" />
-                <element signature="e#658#659#0#JAVA" expanded="true" />
-                <marker date="1454227614818" expanded="true" signature="1281:1384" placeholder="select senso... sensors" />
-                <marker date="1454227614818" expanded="true" signature="1281:1393" placeholder="select senso... sensors" />
-                <marker date="1454227614818" expanded="true" signature="1281:1394" placeholder="select senso... sensors" />
-                <marker date="1454227614818" expanded="true" signature="1281:1406" placeholder="select senso... sensors" />
-                <marker date="1454227614818" expanded="true" signature="1763:1820" placeholder="select * fro... sensors" />
-                <marker date="1454227614818" expanded="true" signature="1763:1837" placeholder="select * fro... sensors" />
-                <marker date="1454227614818" expanded="true" signature="1763:1839" placeholder="select * fro... sensors" />
-                <marker date="1454227614818" expanded="true" signature="1763:1851" placeholder="select * fro... sensors" />
-                <marker date="1454227614818" expanded="true" signature="1763:1854" placeholder="select * fro... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1098:1201" placeholder="select senso... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1098:1210" placeholder="select senso... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1098:1211" placeholder="select senso... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1098:1223" placeholder="select senso... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1580:1637" placeholder="select * fro... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1580:1654" placeholder="select * fro... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1580:1656" placeholder="select * fro... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1580:1668" placeholder="select * fro... sensors" />
+                <marker date="1454236398770" expanded="true" signature="1580:1671" placeholder="select * fro... sensors" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+        <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
@@ -110,7 +106,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -123,45 +119,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weatherStantionJSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weatherStantionJSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weatherStationJSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weatherStantionJSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weatherStationJSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -171,233 +129,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sdk/sqlite-jdbc-3.8.11.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ROOT" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.show.jsp (4)">
-    <configuration default="false" name="show.jsp (3)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/show.jsp" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="weatherStantionJSP:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_weatherStantionJSP" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59503" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="weatherStantionJSP:war exploded" />
-        </option>
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\java\weatherStationJSP\ROOT" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.x5x">
     <configuration default="false" name="show.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/show.jsp">
       <method />
     </configuration>
     <configuration default="false" name="show.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/show.jsp" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="weatherStantionJSP:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_weatherStantionJSP" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59503" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="weatherStantionJSP:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="show.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/show.jsp" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="weatherStantionJSP:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_weatherStantionJSP" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59503" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="weatherStantionJSP:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="show.jsp (4)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M1" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/show.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1005,7 +749,7 @@
       <option name="LOCAL" value="false" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <file path="$PROJECT_DIR$/web">
+        <file path="$PROJECT_DIR$/ROOT">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -1013,8 +757,8 @@
       </deployment>
       <server-settings>
         <data>
-          <option name="jndiPort" value="8080" />
-          <option name="stagingRemotePath" value="" />
+          <option name="jndiPort" value="9991" />
+          <option name="stagingRemotePath" value="/" />
           <option name="transportHostId" value="76d7f1d6-37cd-40a0-9df7-12d6dcf715e5" />
           <option name="transportStagingTarget">
             <TransportTarget>
@@ -1022,14 +766,14 @@
               <id>df584068-b4b3-41c3-8d6d-de530d222d6d</id>
             </TransportTarget>
           </option>
-          <jndi-port>8080</jndi-port>
+          <jndi-port>9991</jndi-port>
           <transport-target>
             <TransportTarget>
               <option name="id" value="df584068-b4b3-41c3-8d6d-de530d222d6d" />
               <id>df584068-b4b3-41c3-8d6d-de530d222d6d</id>
             </TransportTarget>
           </transport-target>
-          <staging-path />
+          <staging-path>/</staging-path>
           <host-id>76d7f1d6-37cd-40a0-9df7-12d6dcf715e5</host-id>
         </data>
       </server-settings>
@@ -1041,21 +785,15 @@
       </RunnerSettings>
       <method />
     </configuration>
-    <list size="6">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.x5x" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.show.jsp (3)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.show.jsp" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.show.jsp" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.show.jsp (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.show.jsp (4)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.show.jsp" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.show.jsp" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.show.jsp (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.show.jsp (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.show.jsp" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.show.jsp" />
-        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.show.jsp (3)" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.show.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.show.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -1080,12 +818,15 @@
       <workItem from="1454057377409" duration="540000" />
       <workItem from="1454058384554" duration="984000" />
       <workItem from="1454059784796" duration="7000" />
-      <workItem from="1454171123532" duration="6295000" />
+      <workItem from="1454171123532" duration="7084000" />
+      <workItem from="1454236288850" duration="3365000" />
+      <workItem from="1454266726668" duration="2122000" />
+      <workItem from="1454485524036" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26001000" />
+    <option name="totallyTimeSpent" value="32301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1093,14 +834,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1647145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1110,12 +849,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1144,141 +886,221 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/show.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/show.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#499#500#0#JAVA" expanded="true" />
-            <element signature="e#562#563#0#JAVA" expanded="true" />
-            <element signature="e#595#596#0#JAVA" expanded="true" />
-            <element signature="e#658#659#0#JAVA" expanded="true" />
-            <marker date="1454227614818" expanded="true" signature="1281:1384" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1393" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1394" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1406" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1820" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1837" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1839" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1851" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1854" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1201" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1210" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1211" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1223" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1637" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1654" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1656" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1668" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1671" placeholder="select * fro... sensors" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/show.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROOT/show.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#499#500#0#JAVA" expanded="true" />
-            <element signature="e#562#563#0#JAVA" expanded="true" />
-            <element signature="e#595#596#0#JAVA" expanded="true" />
-            <element signature="e#658#659#0#JAVA" expanded="true" />
-            <marker date="1454227614818" expanded="true" signature="1281:1384" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1393" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1394" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1406" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1820" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1837" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1839" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1851" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1854" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1201" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1210" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1211" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1223" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1637" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1654" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1656" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1668" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1671" placeholder="select * fro... sensors" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/show.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454236398770" expanded="true" signature="1098:1201" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1210" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1211" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1223" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1637" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1654" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1656" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1668" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1671" placeholder="select * fro... sensors" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/show.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROOT/show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1454236398770" expanded="true" signature="1098:1201" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1210" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1211" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1223" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1637" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1654" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1656" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1668" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1671" placeholder="select * fro... sensors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROOT/show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1454236398770" expanded="true" signature="1098:1201" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1210" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1211" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1223" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1637" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1654" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1656" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1668" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1671" placeholder="select * fro... sensors" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROOT/show.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="119" column="7" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
           <folding>
-            <element signature="e#499#500#0#JAVA" expanded="true" />
-            <element signature="e#562#563#0#JAVA" expanded="true" />
-            <element signature="e#595#596#0#JAVA" expanded="true" />
-            <element signature="e#658#659#0#JAVA" expanded="true" />
-            <marker date="1454227614818" expanded="true" signature="1281:1384" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1393" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1394" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1406" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1820" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1837" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1839" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1851" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1854" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1201" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1210" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1211" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1223" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1637" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1654" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1656" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1668" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1671" placeholder="select * fro... sensors" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1289,9 +1111,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="39" />
           <folding>
             <marker date="1454171069760" expanded="true" signature="1183:1343" placeholder="insert into sensors... " />
@@ -1299,24 +1121,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/show.jsp">
+    <entry file="file://$PROJECT_DIR$/ROOT/show.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34655172">
-          <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
+        <state vertical-scroll-proportion="0.15689655">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
           <folding>
-            <element signature="e#499#500#0#JAVA" expanded="true" />
-            <element signature="e#562#563#0#JAVA" expanded="true" />
-            <element signature="e#595#596#0#JAVA" expanded="true" />
-            <element signature="e#658#659#0#JAVA" expanded="true" />
-            <marker date="1454227614818" expanded="true" signature="1281:1384" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1393" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1394" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1281:1406" placeholder="select senso... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1820" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1837" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1839" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1851" placeholder="select * fro... sensors" />
-            <marker date="1454227614818" expanded="true" signature="1763:1854" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1201" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1210" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1211" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1098:1223" placeholder="select senso... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1637" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1654" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1656" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1668" placeholder="select * fro... sensors" />
+            <marker date="1454236398770" expanded="true" signature="1580:1671" placeholder="select * fro... sensors" />
           </folding>
         </state>
       </provider>
